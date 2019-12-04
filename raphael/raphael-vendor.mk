@@ -196,40 +196,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/product/media/audio/ui/popup_muqin_up.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_muqin_up.ogg \
     vendor/xiaomi/raphael/proprietary/product/media/audio/ui/popup_yingyan_down.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_yingyan_down.ogg \
     vendor/xiaomi/raphael/proprietary/product/media/audio/ui/popup_yingyan_up.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_yingyan_up.ogg \
-    vendor/xiaomi/raphael/proprietary/lib/modules/audio_adsp_loader.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_adsp_loader.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/audio_apr.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_apr.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/audio_cs35l41.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_cs35l41.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/audio_hdmi.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_hdmi.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/audio_machine_msmnile.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_machine_msmnile.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/audio_mbhc.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_mbhc.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/audio_native.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_native.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/audio_pinctrl_wcd.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_pinctrl_wcd.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/audio_platform.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_platform.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/audio_q6.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_q6.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/audio_q6_notifier.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_q6_notifier.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/audio_q6_pdr.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_q6_pdr.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/audio_stub.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_stub.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/audio_swr.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_swr.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/audio_swr_ctrl.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_swr_ctrl.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/audio_tas2557.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_tas2557.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/audio_tfa98xx.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_tfa98xx.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/audio_usf.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_usf.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/audio_wcd934x.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_wcd934x.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/audio_wcd9360.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_wcd9360.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/audio_wcd9xxx.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_wcd9xxx.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/audio_wcd_core.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_wcd_core.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/audio_wcd_spi.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_wcd_spi.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/audio_wglink.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_wglink.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/audio_wsa881x.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_wsa881x.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/exfat.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/exfat.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/modules.alias:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/modules.alias \
-    vendor/xiaomi/raphael/proprietary/lib/modules/modules.dep:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/modules.dep \
-    vendor/xiaomi/raphael/proprietary/lib/modules/mpq-adapter.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/mpq-adapter.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/mpq-dmx-hw-plugin.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/mpq-dmx-hw-plugin.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/qca_cld3_wlan.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/qca_cld3_wlan.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/rmnet_perf.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/rmnet_perf.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/rmnet_shs.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/rmnet_shs.ko \
-    vendor/xiaomi/raphael/proprietary/lib/modules/tspp.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/tspp.ko \
     vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/soundfx/libvolumelistener.so \
     vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/soundfx/libvolumelistener.so
 
