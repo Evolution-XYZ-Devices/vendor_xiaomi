@@ -107,12 +107,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/product/media/audio/ui/popup_cangmen_up.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_cangmen_up.ogg \
     vendor/xiaomi/raphael/proprietary/product/media/audio/ui/popup_chilun_down.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_chilun_down.ogg \
     vendor/xiaomi/raphael/proprietary/product/media/audio/ui/popup_chilun_up.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_chilun_up.ogg \
+    vendor/xiaomi/raphael/proprietary/product/media/audio/ui/popup_imperial_march_down.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_imperial_march_down.ogg \
+    vendor/xiaomi/raphael/proprietary/product/media/audio/ui/popup_imperial_march_up.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_imperial_march_up.ogg \
     vendor/xiaomi/raphael/proprietary/product/media/audio/ui/popup_jijia_down.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_jijia_down.ogg \
     vendor/xiaomi/raphael/proprietary/product/media/audio/ui/popup_jijia_up.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_jijia_up.ogg \
+    vendor/xiaomi/raphael/proprietary/product/media/audio/ui/popup_lightsaber_down.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_lightsaber_down.ogg \
+    vendor/xiaomi/raphael/proprietary/product/media/audio/ui/popup_lightsaber_up.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_lightsaber_up.ogg \
     vendor/xiaomi/raphael/proprietary/product/media/audio/ui/popup_mofa_down.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_mofa_down.ogg \
     vendor/xiaomi/raphael/proprietary/product/media/audio/ui/popup_mofa_up.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_mofa_up.ogg \
     vendor/xiaomi/raphael/proprietary/product/media/audio/ui/popup_muqin_down.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_muqin_down.ogg \
     vendor/xiaomi/raphael/proprietary/product/media/audio/ui/popup_muqin_up.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_muqin_up.ogg \
+    vendor/xiaomi/raphael/proprietary/product/media/audio/ui/popup_throne_room_down.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_throne_room_down.ogg \
+    vendor/xiaomi/raphael/proprietary/product/media/audio/ui/popup_throne_room_up.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_throne_room_up.ogg \
     vendor/xiaomi/raphael/proprietary/product/media/audio/ui/popup_yingyan_down.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_yingyan_down.ogg \
     vendor/xiaomi/raphael/proprietary/product/media/audio/ui/popup_yingyan_up.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_yingyan_up.ogg \
     vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/modules/audio_adsp_loader.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_adsp_loader.ko \
