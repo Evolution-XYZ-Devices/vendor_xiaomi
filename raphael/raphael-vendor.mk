@@ -212,5 +212,4 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    WfdCommon \
-    libplatformconfig
+    WfdCommon
