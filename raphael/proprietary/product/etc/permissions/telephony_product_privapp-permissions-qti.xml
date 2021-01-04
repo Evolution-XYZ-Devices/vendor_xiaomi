@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (c) 2019 Qualcomm Technologies, Inc.
+  ~ Copyright (c) 2020 Qualcomm Technologies, Inc.
   ~ All Rights Reserved.
   ~ Confidential and Proprietary - Qualcomm Technologies, Inc.
 -->
@@ -35,10 +35,6 @@ It allows additional grants on top of privapp-permissions-platform.xml
 
 <permissions>
 
-    <privapp-permissions package="com.qualcomm.qcrilmsgtunnel">
-        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
-    </privapp-permissions>
-
     <privapp-permissions package="org.codeaurora.dialer">
         <permission name="android.permission.ALLOW_ANY_CODEC_FOR_PLAYBACK"/>
         <permission name="android.permission.CONTROL_INCALL_EXPERIENCE"/>
@@ -49,20 +45,16 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.STOP_APP_SWITCHES"/>
         <permission name="com.android.voicemail.permission.READ_VOICEMAIL"/>
         <permission name="com.android.voicemail.permission.WRITE_VOICEMAIL"/>
-    </privapp-permissions>
-
-    <privapp-permissions package="org.codeaurora.qti.qtiNetworkApp">
-        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS"/>
     </privapp-permissions>
 
     <privapp-permissions package="org.codeaurora.ims">
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
         <permission name="android.permission.READ_PRECISE_PHONE_STATE"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
         <permission name="android.permission.INTERACT_ACROSS_USERS"/>
         <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
-    </privapp-permissions>
-
-    <privapp-permissions package="com.qualcomm.qti.carrierswitch">
-        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS" />
     </privapp-permissions>
 
     <privapp-permissions package="com.android.mms">
@@ -79,8 +71,12 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.VIBRATE" />
     </privapp-permissions>
 
+    <privapp-permissions package="com.qualcomm.qcrilmsgtunnel">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
+
     <privapp-permissions package="org.codeaurora.qti.nrNetworkSettingApp">
-        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
     </privapp-permissions>
 
 </permissions>
